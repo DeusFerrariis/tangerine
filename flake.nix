@@ -21,14 +21,14 @@
           buildInputs = [
             openssl
             pkg-config
-            exa
             rust-bin.nightly.latest.default
           ];
 
           shellHook = ''
             alias ls="exa --icons"
-            alias edit=hx
+            alias edit=nvim
             alias find=fd
+            alias zj="zellij --layout compact"
           '';
         };
       }
