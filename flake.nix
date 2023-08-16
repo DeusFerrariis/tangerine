@@ -22,7 +22,7 @@
             openssl
             pkg-config
             rust-bin.nightly.latest.default
-            rust-analyzer.nightly.latest.default
+            rust-analyzer
           ];
 
           shellHook = ''
